@@ -1,0 +1,49 @@
+.header2 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    /* position: sticky; */
+    top: 0;
+    z-index: 100;
+}
+
+.header__nav2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option2 {
+    display: flex;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.aroow__logo {
+    display: flex;
+    flex: 1;
+
+
+}
+
+.aroow__logo:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    color: black;
+    border-radius: 10px;
+}
+
+.clothing__drop {
+    background: white;
+    padding: 4px;
+    box-shadow: white;
+}
+
+.clothing__dropMenu:hover {
+    cursor: pointer;
+    background-color: #B9E0FF;
+}

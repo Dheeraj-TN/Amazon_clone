@@ -1,0 +1,22 @@
+.searchPage {
+    margin: 5% 0;
+}
+
+.searchPage .template__conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.searchPage .template__conatiner .template {
+    background-color: white;
+    margin: 30px;
+    padding: 0px 20px;
+}
+
+.template>img {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
